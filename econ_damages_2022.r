@@ -36,7 +36,7 @@ social_cost_perton <- exp(log_scc_values)
 social_cost_perton <- social_cost_perton * 1.0517  #converting 2007 prices to 2010 prices https://www.in2013dollars.com/2007-dollars-in-2010?amount=100
 
 #pull in gdp data
-gdp_data <- read_xls("~/Desktop/GDP_econ_damages/2018_data/API_NY.GDP.MKTP.KD_DS2_en_excel_v2_820928.xls", sheet = "Data")
+gdp_data <- read.csv("Data/GDP_country_year.csv")
 gdp_data <- gdp_data[-c(1:2), ]    #drop some rows from spreadsheet
 colnames(gdp_data) <- gdp_data[1, ]   #change column names to row that has it
 gdp_data <- gdp_data[-c(1), ]         #drop the header row since we incorporated it 
