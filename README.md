@@ -21,3 +21,5 @@ R, RStudio
 
 6. Run plots.r to generate the plots in the manuscript.
 
+
+For any questions or comments please contact the corresponding author on the manuscript, Nicholas Z. Muller - nzm@andrew.cmu.edu 
