@@ -1,4 +1,4 @@
-# Supporting code and data for our manuscript Tracking sustainable growth in the 21st century
+# Supporting code and data for our manuscript 'Measuring global monetary damages from particulate matter and carbon dioxide to track sustainable growth'
 
 ## Overview
 This code and data will replicate the results reported in our manuscript.
